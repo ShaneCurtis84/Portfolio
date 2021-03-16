@@ -232,7 +232,7 @@ footer h3 {
 
 /* Media Queries */
 
-@media (max-width:800px) {
+@media (max-width:900px) {
   .card-02 {
     flex: 100%;
     max-width: 600px;
