@@ -15,8 +15,7 @@ body {
   margin: 0;
   padding-bottom: 0px !important;
   margin-bottom: -40px !important;
-  background: rgb(136, 96, 208);
-  background: linear-gradient(90deg, rgba(136, 96, 208, 1) 20%, rgba(86, 128, 233, 1) 34%, rgba(132, 206, 235, 1) 100%);
+  background-color: #fff;
 }
 
 h3 h4 {
@@ -27,11 +26,12 @@ h3 h4 {
 /* Header and navigation styles*/
 
 .nav-bar {
-  background-color: #5680e9;
+  background-color: #1B242F;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 3px solid #05C2C9;
 }
 
 .nav-list {
@@ -58,24 +58,39 @@ h3 h4 {
 
 nav h1 {
   padding-left: 50px;
-  background-color: #84ceeb;
+  
 }
 
 .profile-section {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: rgb(86, 128, 233);
-  background: linear-gradient(90deg, rgba(86, 128, 233, 1) 0%, rgba(132, 206, 235, 1) 32%, rgba(136, 96, 208, 1) 100%);
-}
-
-.profile-section h2 {
-  color: var(--primary-text);
-  border: none;
+  
+ position: relative;
+ border-bottom: #05C2C9 3px solid;
 }
 
 .profile-pic {
+
+  position:absolute;
+  left:-75px;
+  height: 250px;
+}
+
+
+.profile-section h2 {
+  color: Black;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+}
+
+.profile-back {
+
+  height:250px;
+  width: 100%;
+ 
+}
+
+.profile-pic {
+  padding-left: 75px;
   height: 250px;
 }
 
@@ -84,6 +99,11 @@ nav h1 {
 main {
   width: 90%;
   margin: auto;
+}
+
+.name-text {
+
+  font-size:20px;
 }
 
 .about-container {
@@ -97,8 +117,8 @@ main {
 
 h2 {
   flex: .5;
-  color: var(--primary-text);
-  border-right: 3px solid #c1c8e4;
+  color: #05C2C9;
+  border-right: 3px solid #05C2C9;
   font-weight: bold;
 }
 
@@ -121,14 +141,14 @@ main p {
   flex-wrap: wrap;
 }
 
-.top-left {
+.bottom-left {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  bottom: 1px;
+  left: 1px;
   font-weight: bold;
   font-size: 20px;
-  background-color: var(--hover-color);
-  color: #8860d0;
+  
+  color: black;
 }
 
 .card-02 {
@@ -139,7 +159,7 @@ main p {
   margin: 10px;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border: 2px solid #c1c8e4;
+  border: 2px solid #05C2C9;
 }
 
 .card-01 {
@@ -150,7 +170,7 @@ main p {
   margin: 10px;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border: 2px solid #c1c8e4;
+  border: 2px solid #05C2C9;
 }
 
 .card-01 img {
@@ -202,7 +222,7 @@ main p {
 }
 
 .contact-container ul li a {
-  color: var(--primary-text);
+  color:#05C2C9 ;
   text-decoration: none;
   font-weight: bold;
   padding: 10px 10px;
